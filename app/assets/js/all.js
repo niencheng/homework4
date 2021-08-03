@@ -1,5 +1,6 @@
-console.log('Hello!');
-
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
+$(document).ready(function () {
+  $('.header-icon').click(function (e) {
+    e.preventDefault();
+    $('.header-list').toggleClass('active');
+  })
 });
