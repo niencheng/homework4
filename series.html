@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series</title>
+    <link rel="stylesheet" href="assets/style/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header d-flex">
+    <a href="index.html" class="header-icon">
+        <img src="assets/images/icon-menu.svg" alt="icon">
+    </a>
+    <img src="assets/images/logo.png" alt="logo">
+    <ul class="header-list">
+        <li><a href="series.html">系列鏡框</a></li>
+        <li><a href="###">門市據點</a></li>
+        <li><a href="###">部落格</a></li>
+        <li><a href="###">常見問題</a></li>
+    </ul>
+  </header>
+
+  <h1>系列鏡框</h1>
+
+  <footer class="footer">
+    <div class="container">
+        <nav class="footer-menu d-flex space-between">
+            <div class="footer-list">
+                <ul class="d-flex">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="series.html">系列鏡框</a></li>
+                    <li><a href="###">門市據點</a></li>
+                    <li><a href="###">部落格</a></li>
+                    <li><a href="###">常見問題</a></li>
+                </ul>
+                <ul>
+                    <li class="d-flex">
+                        <img src="assets/images/icon-phone.svg" alt="phone">
+                        <p>0800-000-000</p>
+                    </li>
+                    <li class="d-flex">
+                        <img src="assets/images/icon-mail.svg" alt="mail">
+                        <p>glasses@business.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-icon d-flex flex-end">
+                <a href="###"><img src="assets/images/icon-fb.svg" alt="fb"></a>
+                <a href="###"><img src="assets/images/icon-ig.svg" alt="ig"></a>
+                <a href="###"><img src="assets/images/icon-line.svg" alt="line"></a>
+            </div>
+        </nav>
+        <nav class="copyright">
+            <ul class="d-flex space-between">
+                <li class="d-flex">
+                    <img src="assets/images/logo.png" alt="logo" class="logo-pc">
+                    <p>Copyright © 2020 Glasses.All rights reserved.</p>
+                </li>
+                <li class="d-flex flex-end">
+                    <div class="phone-column">
+                        <a href="###">隱私權政策</a>
+                        <a href="###">服務條款</a>
+                    </div>
+                    <img src="assets/images/logo.png" alt="logo" class="logo-phone">
+                </li>
+            </ul> 
+        </nav>
+    </div>
+  </footer>
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script>
+    $('.header-icon').click(function () {
+      $('.header-list').toggleClass('active');
+    })
+  </script>
+
+</body>
+
+</html>
