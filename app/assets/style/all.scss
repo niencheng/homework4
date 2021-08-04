@@ -36,9 +36,223 @@ h1 {
 .space-between {
     justify-content: space-between;
 }
+.jus-center {
+    justify-content: center;
+}
 .flex-end {
     justify-content: flex-end;
 }
+.f-wrap {
+    flex-wrap: wrap;
+}
 .align-items-baseline {
     align-items: baseline;
+}
+/*series*/
+.series-list ul {
+    width: 100%;
+}
+.series-list li {
+    width: 400px;
+    padding: 1.5rem 0;
+    a {
+        display: block;
+        text-align: center;
+        font-family: roboto-blod;
+        font-size: 42px;
+        img {
+            width: 3rem;
+            height: 3rem;
+            padding-top: 1rem;
+            align-items: center;
+        }
+    }
+}
+.underline {
+    border: 1px solid #DCDCDC;
+    border-bottom: 1rem solid #AA0601;
+}
+.no-underline {
+    border: 1px solid #DCDCDC;
+}
+@media (max-width: 992px) {
+    .series-list ul li {
+        width: 33.33%;
+        padding: 1rem 0;
+        a {
+            font-size: 28px;
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+    .underline {
+        border-bottom: 0.5rem solid #AA0601;
+    }
+}
+@media (max-width: 767px) {
+    .series-list ul li {
+        padding: 0.5rem 0;
+        a {
+            font-size: 14px;
+            img {
+                width: 1rem;
+                height: 1rem;
+                padding: 0;
+            }
+        }
+    }
+    .underline {
+        border-bottom: 0.25rem solid #AA0601;
+    }
+}
+.series-banner-large {
+    width: 49.375%;
+    height: 329.2px;
+    padding-bottom: 88px;
+}
+.series-banner-middle {
+    display: none;
+    width: 50%;
+    padding-bottom: 40px;
+}
+@media (max-width: 992px) {
+    .series-banner-large {
+        display: none;
+    }
+    .series-banner-middle {
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .series-banner-middle {
+        padding-bottom: 24px;
+    }
+}
+.series-content {
+    text-align: center;
+    h2 {
+        font-family:  roboto-blod;
+        font-size: 42px;
+    }
+    h3 {
+        font-family: noto-regular;
+        font-size: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+.series-content ul {
+    flex-wrap: wrap;
+    li {
+        width: 23.5%;
+        padding-bottom: 104px;
+        p {
+            width: 50%;
+            font-size: 24px;
+            font-family: roboto-blod;
+        }
+    }
+}
+.model-num {
+    text-align: left;
+}
+.price {
+    text-align: right;
+    color: #AA0601;
+}
+.black {
+    width: 24px;
+    height: 24px;
+    background: #5F3E2D;
+    margin-right: 0.5rem;
+}
+.brown {
+    width: 24px;
+    height: 24px;
+    background: #B75929;
+}
+.change-page {
+    justify-content: center;
+    padding-bottom: 156px;
+    p {
+        width: 81px;
+        height: 48px;
+        font-family: noto-regular;
+        font-size: 19px;
+        text-align: center;
+        border: 1px solid #555555;
+    }
+    li {
+        width: 41px;
+        height: 48px;
+        font-family: roboto-bold;
+        font-size: 18px;
+        text-align: center;
+        border: 1px solid #555555;
+    }
+    a {
+        display: block;
+        padding: 9px 0;
+    }
+    a:hover {
+        background: #F2F2F2;
+    }
+}
+@media (max-width: 992px) {
+    .series-content {
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 24px;
+            padding-bottom: 2rem;
+        }
+    }
+    .series-content ul {
+        li {
+            width: 48.21%;
+            padding-bottom: 72px;
+            img {
+                width: 324px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .series-content {
+        h2 {
+            font-size: 3rem;
+        }
+        h3 {
+            font-size: 36px;
+            padding-bottom: 20px;
+        }
+    }
+    .series-content ul {
+        li {
+            width: 100%;
+            padding-bottom: 2rem;
+            img {
+                width: 352px;
+            }
+        }
+    }
+    .change-page {
+        padding-bottom: 56px;
+        p {
+            width: 53px;
+            height: 32px;
+            font-size: 12px;
+        }
+        li {
+            width: 27px;
+            height: 32px;
+            font-size: 11px;
+        }
+        a {
+            display: block;
+            padding: 5px 0;
+        }
+    }
 }
