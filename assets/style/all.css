@@ -457,6 +457,16 @@ h1 {
       -ms-flex-align: baseline;
           align-items: baseline; }
 
+.align-items-flex-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 /*series*/
 .series-list ul {
   width: 100%; }
@@ -628,5 +638,36 @@ h1 {
     .change-page a {
       display: block;
       padding: 5px 0; } }
+
+.location-banner {
+  background-image: url(../images/qa.png);
+  height: 304px; }
+  .location-banner div {
+    height: 304px; }
+  .location-banner h1 {
+    font-size: 4rem; }
+  .location-banner img {
+    width: 40px;
+    height: 58px;
+    margin-bottom: 1.5rem; }
+
+.select-area {
+  width: 32%;
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+  .select-area label {
+    font-size: 24px; }
+  .select-area select {
+    width: 266px;
+    height: 45px;
+    border: 1px solid #CED4DA; }
+
+.location-content {
+  width: 32%; }
+  .location-content li {
+    border: 1px solid #00000020;
+    margin-right: 24px; }
+  .location-content h2 {
+    border: 1px solid #00000020; }
 
 /*# sourceMappingURL=all.css.map */
