@@ -48,6 +48,12 @@ h1 {
 .align-items-baseline {
     align-items: baseline;
 }
+.align-items-flex-end {
+    align-items: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
 /*series*/
 .series-list ul {
     width: 100%;
@@ -254,5 +260,45 @@ h1 {
             display: block;
             padding: 5px 0;
         }
+    }
+}
+
+// location
+.location-banner {
+    background-image: url(../images/qa.png);
+    height: 304px;
+    div {
+        height: 304px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    img {
+        width: 40px;
+        height: 58px;
+        margin-bottom: 1.5rem;
+    }
+}
+.select-area {
+    width: 32%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    label {
+        font-size: 24px;
+    }
+    select {
+        width: 266px;
+        height: 45px;
+        border: 1px solid #CED4DA;
+    }
+}
+.location-content {
+    width: 32%;
+    li {
+        border: 1px solid #00000020;
+        margin-right: 24px;
+    }
+    h2 {
+        border: 1px solid #00000020;
     }
 }

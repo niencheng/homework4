@@ -4,4 +4,43 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-<h1>門市據點</h1>
+<main>
+    <div class="location-banner">
+        <div class="container d-flex align-items-flex-end">
+            <h1>門市據點</h1>
+            <img src="assets/images/icon-location.svg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="select-area d-flex space-between align-items-center">
+            <label for="area">選擇地區</label>
+            <select name="area" id="area">
+                <option value="台北市">台北市</option>
+                <option value="新北市">新北市</option>
+                <option value="台南市">台南市</option>
+                <option value="高雄市">高雄市</option>
+            </select>
+        </div>
+        <ul class="location-content d-flex f-wrap">
+            <li>
+                <img src="assets/images/locate.png" alt="">
+                <h2>台北中山旗艦店</h2>
+                <p><img src="assets/images/icon-phone-black.svg" alt="">電話：(02)000-1234</p>
+                <p><img src="assets/images/icon-clock-black.svg" alt="">營業時間：10:00-21:00</p>
+                <p><img src="assets//images/icon-map.svg" alt="">地址：台北市中山區南京東路25巷2-1號</p>
+                <p><a href="###">詳細資訊</a></p>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</main>
